@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background: #ffffff;
+  color: #02010a;
+  overflow-x: hidden;
+}
+
+header {
+  width: 100%;
+  padding: 25px 0;
+}
+
+.header-container {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+
+
+
+}
+
+
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #02010a;
+  transition: 0.3s;
+}
+
+.nav-list li a:hover {
+  color: #6f7ba0;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  border: 2px solid #02010a;
+  padding: 8px 12px;
+}
+
+.frame {
+  width: 30%;
+  max-width: 900px;
+  height: 600px;
+  border: 6px solid #2c308c;
+  margin: 80px auto;
+}
+
+.project {
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.project-title h1 {
+  font-size: 55px;
+  position: relative;
+  bottom: 400px;
+  right: 204px;
+
+}
+
+.project-title a {
+  text-decoration: none;
+  color: #02010a;
+}
+
+.project-hero {
+  height: 300px;
+  background: #f2f2f2;
+  margin: 40px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-picture {
+  width: 200px;
+  height: 200px;
+  background: #ddd;
+}
+
+.project-meta {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #6f7ba0;
+}
+
+.project-url {
+  margin-top: 25px;
+}
+
+.project-url a {
+  text-decoration: none;
+  border-bottom: 2px solid #2c308c;
+  padding-bottom: 4px;
+}
+
+.project-number {
+  margin-top: 20px;
+  font-size: 22px;
+  color: #6f7ba0;
+}
+
+
+
+.pagination {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.pagination ul {
+  list-style: none;
+}
+
+.pagination li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.pagination a {
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #02010a;
+}
+
+.pagination span {
+  color: #6f7ba0;
+  margin-right: 5px;
+}
